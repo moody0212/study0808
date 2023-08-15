@@ -208,3 +208,66 @@ int main(void)
 	return 0;
 }
 ```
+
+
+# 2023 0816
+
+c언어 콘서트 77p
+```c
+#include <stdio.h>
+
+int main(void)
+{
+	
+	printf("이름: 홍길동\n"); 
+	printf("주소: 서울시 종로구\n");
+	printf("전화번호: 111-2222\n");
+
+	return 0;
+}
+```
+
+c언어 콘서트 77p
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+	
+	int price; //제품의 가격을 저장할 변수
+	int a; //상품의 개수를 저장할 변수
+	int sum; //제품의 합계를 저장할 변수
+
+	printf("상품의 가격을 입력하시오:"); 
+	scanf("%d", &price);
+
+	printf("상품의 개수를 입력하시오:");
+	scanf("%d", &a);
+
+	sum = price * a;
+	printf("총 가격은 %d 입니다.\n", sum);
+
+	return 0;
+}
+```
+c언어 콘서트 77p
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+	
+	int age; //현제 나이
+	int sum; //내년에 되는 나이
+
+	printf("나이를 입력하시오: "); 
+	scanf("%d", &age);
+
+	sum = age +1;
+	printf("내년이면 %d살이 되시는군요.\n", sum);
+
+	return 0;
+}
+```
